@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 93,
+    "uniqCompNum": 94,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@"
   },
@@ -787,43 +787,63 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>結束完芬蘭首都Helsinki之旅後，我們夜宿詩麗亞遊輪 SILJA &nbsp;LINE 前往瑞典首都_斯德哥爾摩Stockholm 。</p><p>Silja Line詩麗亞遊輪又被稱為波羅的海的女王，1990年建造的巨大郵輪，進水量5萬8千4百噸，全長203公尺，</p><p>內有各種商店、餐廳、<span style=\"line-height: 1.5;\">酒吧、</span><span style=\"line-height: 1.5;\">咖啡廳、24小時開放、泳池、賭場等設施。</span></p>"
+          "text": "<p>結束完芬蘭首都Helsinki之旅後，我們夜宿詩麗亞遊輪 SILJA &nbsp;LINE 前往瑞典首都_斯德哥爾摩Stockholm 。</p><p><br></p>"
         },
         {
-          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery2",
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2l",
           "_params": {
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-10-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-10-2000x1500.jpg",
-                "caption": "<font color=\"#000000\">SILJA LINE</font>",
-                "active": true
-              }
-            ],
-            "spacing": "1",
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
             "showText": true,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
+            "showButtons": true
           },
-          "_anchor": "gallery2-2k",
-          "articleLayout": false,
-          "allItem": "All",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img-11-1400x1050.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SILJA LINE",
+          "text": "Silja Line詩麗亞遊輪又被稱為波羅的海的女王，<br>1990年建造的巨大郵輪，進水量5萬8千4百噸，全長203公尺，<br>內有各種商店、餐廳、酒吧、咖啡廳、24小時開放、泳池、<br>賭場等設施。.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://www.tallinksilja.com/stockholm-helsinki-one-way-trip\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ABOUT SILJA LINE</a>",
           "_styles": {
-            ".mbr-gallery-item > div > span FONT": {
-              "color": "#ffffff"
+            "P": {
+              "text-align": "left"
             }
           }
         },
